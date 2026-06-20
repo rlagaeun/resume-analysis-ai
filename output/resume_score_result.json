@@ -1,0 +1,193 @@
+{
+  "overall_score": 73,
+  "chart_scores": [
+    {
+      "category": "스킬",
+      "score": 81
+    },
+    {
+      "category": "경험",
+      "score": 70
+    },
+    {
+      "category": "포트폴리오",
+      "score": 70
+    },
+    {
+      "category": "직무적합성",
+      "score": 70
+    }
+  ],
+  "debug": {
+    "reference_mode": "job",
+    "target_field": null,
+    "skill": {
+      "score": 81,
+      "candidate_count": 35,
+      "reference_count": 14,
+      "matched_count": 8,
+      "matched_keywords": [
+        "Python",
+        "Kafka",
+        "PostgreSQL",
+        "SQL",
+        "Django",
+        "Flask",
+        "Apache Spark",
+        "Apache Spark 스트리밍"
+      ],
+      "matched_reference_keywords": [
+        "Python",
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "matches": [
+        {
+          "keyword": "Python",
+          "relation": "exact",
+          "matched_reference_keyword": "Python",
+          "reason": "지원자 키워드와 기준 키워드가 직접 일치합니다."
+        },
+        {
+          "keyword": "Kafka",
+          "relation": "exact",
+          "matched_reference_keyword": "Kafka",
+          "reason": "지원자 키워드와 기준 키워드가 직접 일치합니다."
+        },
+        {
+          "keyword": "PostgreSQL",
+          "relation": "exact",
+          "matched_reference_keyword": "PostgreSQL",
+          "reason": "지원자 키워드와 기준 키워드가 직접 일치합니다."
+        },
+        {
+          "keyword": "SQL",
+          "relation": "related",
+          "matched_reference_keyword": "PostgreSQL",
+          "reason": "PostgreSQL 기반 데이터베이스 개발에 필수적인 SQL 쿼리 작성 및 데이터 조작 경험"
+        },
+        {
+          "keyword": "Django",
+          "relation": "related",
+          "matched_reference_keyword": "Python",
+          "reason": "Python 기반 웹 프레임워크로 Python 생태계에서 FastAPI와 동일한 목적의 API 개발 경험"
+        },
+        {
+          "keyword": "Flask",
+          "relation": "related",
+          "matched_reference_keyword": "Python",
+          "reason": "Python 기반 웹 프레임워크로 Python 생태계에서 FastAPI와 동일한 목적의 API 개발 경험"
+        },
+        {
+          "keyword": "Apache Spark",
+          "relation": "related",
+          "matched_reference_keyword": "Kafka",
+          "reason": "대규모 데이터 처리 및 실시간 스트리밍 처리 기술로 메시지 기반 데이터 파이프라인 구축 경험"
+        },
+        {
+          "keyword": "Apache Spark 스트리밍",
+          "relation": "related",
+          "matched_reference_keyword": "Kafka",
+          "reason": "실시간 스트리밍 데이터 처리 기술로 Kafka 기반 메시지 처리 파이프라인 구축과 동일한 목적의 경험"
+        }
+      ]
+    },
+    "experience": {
+      "score": 70,
+      "candidate_count": 27,
+      "reference_count": 31,
+      "matched_count": 3,
+      "matched_keywords": [
+        "ETL 파이프라인 구축",
+        "트러블슈팅",
+        "새로운 기술 습득 및 적용"
+      ],
+      "matched_reference_keywords": [
+        "데이터 처리 파이프라인 구축",
+        "문제해결 능력",
+        "지속적 학습 의지"
+      ],
+      "matches": [
+        {
+          "keyword": "ETL 파이프라인 구축",
+          "relation": "related",
+          "matched_reference_keyword": "데이터 처리 파이프라인 구축",
+          "reason": "ETL 파이프라인 구축은 데이터 처리 파이프라인 구축과 동일한 목적의 데이터 수집, 변환, 로드 작업을 수행하는 실무 경험이다."
+        },
+        {
+          "keyword": "트러블슈팅",
+          "relation": "related",
+          "matched_reference_keyword": "문제해결 능력",
+          "reason": "트러블슈팅은 시스템 문제를 진단하고 해결하는 실제 문제해결 능력의 구체적 실무 경험이다."
+        },
+        {
+          "keyword": "새로운 기술 습득 및 적용",
+          "relation": "related",
+          "matched_reference_keyword": "지속적 학습 의지",
+          "reason": "새로운 기술 습득 및 적용은 지속적 학습 의지를 실제 업무에서 구현한 구체적 경험이다."
+        }
+      ]
+    },
+    "portfolio": {
+      "score": 70,
+      "candidate_count": 16,
+      "reference_count": 36,
+      "matched_count": 3,
+      "matched_keywords": [
+        "Kafka 기반 실시간 스트리밍 파이프라인 구축",
+        "Apache Spark 기반 TF-IDF 키워드 추출 병렬 처리 구현",
+        "S-DoT 센서 데이터 약 132만 건 수집 및 처리"
+      ],
+      "matched_reference_keywords": [
+        "데이터 처리 파이프라인 구축"
+      ],
+      "matches": [
+        {
+          "keyword": "Kafka 기반 실시간 스트리밍 파이프라인 구축",
+          "relation": "related",
+          "matched_reference_keyword": "데이터 처리 파이프라인 구축",
+          "reason": "실시간 스트리밍 파이프라인 구축은 데이터 처리 파이프라인 구축의 구체적인 구현 사례로, 동일한 목적의 데이터 처리 경험이다."
+        },
+        {
+          "keyword": "Apache Spark 기반 TF-IDF 키워드 추출 병렬 처리 구현",
+          "relation": "related",
+          "matched_reference_keyword": "데이터 처리 파이프라인 구축",
+          "reason": "대규모 데이터의 병렬 처리를 통한 데이터 처리 파이프라인 구축 경험으로, 데이터 처리 최적화 역량을 보여준다."
+        },
+        {
+          "keyword": "S-DoT 센서 데이터 약 132만 건 수집 및 처리",
+          "relation": "related",
+          "matched_reference_keyword": "데이터 처리 파이프라인 구축",
+          "reason": "대규모 데이터 수집 및 처리 경험은 데이터 처리 파이프라인 구축의 핵심 역량을 입증한다."
+        }
+      ]
+    },
+    "job_keyword": {
+      "score": 70,
+      "candidate_count": 12,
+      "reference_count": 44,
+      "matched_count": 2,
+      "matched_keywords": [
+        "ETL 파이프라인",
+        "실시간 데이터 처리"
+      ],
+      "matched_reference_keywords": [
+        "데이터 처리 파이프라인 구축"
+      ],
+      "matches": [
+        {
+          "keyword": "ETL 파이프라인",
+          "relation": "related",
+          "matched_reference_keyword": "데이터 처리 파이프라인 구축",
+          "reason": "ETL 파이프라인 구축 경험은 데이터 처리 파이프라인 구축의 직접적인 실무 경험으로 동일한 목적의 기술이다."
+        },
+        {
+          "keyword": "실시간 데이터 처리",
+          "relation": "related",
+          "matched_reference_keyword": "데이터 처리 파이프라인 구축",
+          "reason": "실시간 데이터 처리 경험은 데이터 처리 파이프라인 구축에서 요구되는 핵심 기술 역량이다."
+        }
+      ]
+    }
+  }
+}
